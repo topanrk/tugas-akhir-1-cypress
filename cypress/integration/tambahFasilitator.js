@@ -8,7 +8,7 @@ describe('Add Facilitator', function(){
         cy.get('#user_fullname').type('Topan topan',{force:true}).should('have.value','Topan topan')
 
         //Email
-        cy.get('#user_email').type('pam@gmail.com',{force:true}).should('have.value','pam@gmail.com')
+        cy.get('#user_email').type('pangpang1@gmail.com',{force:true}).should('have.value','pangpang1@gmail.com')
 
         //Status User
         cy.get('#user_is_active').should('have.value','1')

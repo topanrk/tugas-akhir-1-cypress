@@ -13,7 +13,7 @@ describe('Ubah Fasilitator', function(){
         cy.get('[href="facilitator/edit/254"]').click()
 
         //ubah email
-        cy.get('#user_email').type('{selectall}' , '{backspace}').type('contoh123@gmail.com').should('have.value','contoh@gmail.com')
+        cy.get('#user_email').type('{selectall}' , '{backspace}').type('contoh123@gmail.com').should('have.value','contoh123@gmail.com')
         cy.get('#edit').click()
 
         //notifikasi 
